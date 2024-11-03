@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  background-color: rgb(24, 37, 70);
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+}
+.header1 {
+  display: flex;
+  align-items: center;
+  margin-right: 160px;
+  margin-left: 25px;
+}
+.image-1 {
+  height: 50px;
+  margin-right: 10px;
+}
+.image-2 {
+  height: 55px;
+}
+.header2 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+}
+.header2divs {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0 10px;
+  transition: 0.15s;
+}
+.header2divs:hover {
+  background-color: #E98A24D1;
+  cursor: pointer;
+}
